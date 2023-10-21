@@ -88,13 +88,47 @@ else{
 
 //8. Escreva um programa em JavaScript que exiba os números de 1 a 100 no console. Utilize uma estrutura de repetição while, do-while ou for para percorrer os números de 1 a 100 e exibir cada número no console.
 
-let number4 = parseInt()
+let number4 = parseInt(prompt("Digite um número de 0 a 100"))
+
+while(number4 <= 100){
+    console.log(number4)
+    number4++
+}
 
 
 //9. Escreva um programa em JavaScript que solicite uma operação matemática ao usuário (+, -, *, /) e dois números, e exiba o resultado da operação no console. Utilize uma estrutura de decisão switch para verificar qual operação matemática foi informada pelo usuário e realizar a operação correspondente. O resultado da operação deve ser exibido no console.
 
+let number5 = parseInt(prompt("Digite um número"))
+let number6 = parseInt(prompt("Digite outro número"))
+let operator = prompt("Qual das quatros operações deseja executar?")
+
+switch (operator){
+    case '+':
+        console.log(`A soma do número é ${number5 + number6}`);
+        break;
+
+    case '-':
+        console.log(`A soma do número é ${number5 - number6} é:`)
+        break;
+
+    case '*':
+        console.log(`A soma do número é ${number5 * number6} é:`)
+        break;
+
+    case '/':
+        console.log(`A soma do número é ${number5 / number6} é:`)
+        break;
+}
 
 
 //10. Escreva um programa em JavaScript que solicite um número ao usuário e exiba todos os números ímpares entre 1 e o número informado. Utilize uma estrutura de repetição while ou for para verificar se cada número entre 1 e o número informado é ímpar, e exibir os números ímpares encontrados no console.
+
+let number7 = parseInt(prompt("Digite um número para sabermos quais são os números ímpares até ele"))
+
+for (let im = 0; im <= number7; im++){
+    if (im % 2 == 1){
+        console.log(im);
+    }
+}
 
 
