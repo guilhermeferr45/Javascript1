@@ -148,7 +148,7 @@ let num3 = parseInt(prompt("Digite um número:"))
 
 const imprimeTabuada = (n16) =>{
     for(t = 1; t <= 10; t++){
-        console.log(`${num3} * ${t} = ${num3 * t}`)
+        console.log(`${n16} * ${t} = ${n16 * t}`)
     }
 }
 
