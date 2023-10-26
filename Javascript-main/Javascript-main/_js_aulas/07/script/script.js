@@ -117,11 +117,11 @@ alert ("Exercício 8: Verifica se é primo: ")
 let l = parseInt(prompt("Digite um número: "))
 
 const verificaPrimo = (n13) =>{
-    if(n13 % 2 == 0 || n13 % 3 == 0 || n13 % 5 == 0){
-        console.log(`O número ${n13} não é primo`)
+    if(n13 % 2 !==0 || n13 % 3 !==0 || n13 % 5 !==0 || n13 % 7 !==0){
+    console.log(`O número ${n13} é primo`)
     }
     else{
-        console.log(`O número ${n13} é primo`)
+        console.log(`O número ${n13} não é primo`)
     }
 }
 (verificaPrimo(l))
