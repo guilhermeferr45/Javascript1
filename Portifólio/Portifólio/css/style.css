@@ -1,0 +1,98 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap");
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+    scroll-behavior: smooth;
+    scroll-padding-top: 2rem;
+    font-family: "Poppins", sans-serif;
+}
+
+:root{
+    --hover: hsl(270, 4%, 20%);
+    --bg-color: #fff;
+    --text-color: rgb(37, 36, 36);
+}
+
+header{
+    position: fixed;
+    width: 100%;
+    background-color: black;
+    top: 0;
+    right: 0;
+    display: flex;
+    align-items: center;
+    padding: 2rem 3%;
+    transition: 0.2s;
+    box-shadow:  -3px -3px 7px #ffffff73, 2px 2px 5px rgba(91, 104, 121, 0.288);
+    justify-content: space-between;
+}
+
+header.shadow{
+    box-shadow: 0 0 4px rgb(14 55 54 / 15%);
+}
+
+.logo{
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: var(--bg-color);
+}
+
+.logo span{
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: var(--text-color);
+}
+
+.navbar{
+    display: flex;
+    align-items: center;
+}
+
+.navbar a{
+    font-size: 1.5rem;
+    padding: 10px 20px;
+    color: var(--bg-color);
+    font-weight: 500;
+ 
+}
+
+.navbar a:hover{
+    color: var(--hover);
+}
+
+.navbar .teste{
+    display: flex;
+    padding-right: 3rem;
+}
+.navbar .bx{
+    font-size: 2rem;
+}
+
+.home{
+    position: relative;
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+} 
+
+
+.home-img img{
+    width: 1400px;
+    margin-bottom: -1rem;
+}
+
+.dev{
+    padding-bottom: 30rem;
+    padding-right: 10rem;
+}
+
+.skills{
+    padding-bottom: 30rem;
+    padding-left: 10rem;
+}
